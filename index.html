@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+    <h2>📚 BookStore</h2>
+
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Books</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+    <h1>📚 Online Book Store</h1>
+    <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search for a book...">
+    <button onclick="searchBooks()">Search</button>
+</div>
+
+    <p>Welcome to our Online Book Store!</p>
+
+<div class="book" id="pythonBook">
+    <h2>Python Programming</h2>
+    <p>Learn Python from Beginner to Advanced</p>
+    <p>Price: ₹499</p>
+    <button onclick="buyBook('Python Programming')">Buy Now</button>
+</div>
+
+<div class="book" id="webBook">
+    <h2>Web Development</h2>
+    <p>Learn HTML, CSS and JavaScript</p>
+    <p>Price: ₹599</p>
+    <button onclick="buyBook('Web Development')">Buy Now</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
